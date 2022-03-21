@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/b9b0f0a622.js" crossorigin="anonymous"></script>
+    <title>Vacunación</title>
+
+    <script type="text/javascript">
+        function showHide(element){
+            if(document.getElementById(element).style.display === 'none'){
+            document.getElementById(element).style.display = 'block';
+            }
+            else{
+                document.getElementById(element).style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <span class="title">Vacunación</span>
+            <div class="opMenu">
+                <span class="navOp">Base de Datos</span>
+                <span class="navOp">Información</span>
+                <span class="navOp">Noticias</span>
+                <span class="navOp">Regulación</span>
+                <button class="navOp">Hoax Buster</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="div1">
+                <h2>Combate El Virus<br> Con Vacunas</h2>
+                <p class="mens1">Paremos esta pandemia matando el virus con un vacuna, no dejes que tú o tu familia se infecten.</p>
+                <div class="op1">
+                    <p class="p1"><i class="fa-solid fa-shield"></i> Mejor Protección</p>
+                    <p class="p1"><i class="fa-solid fa-star"></i> Vacunas Seleccionadas</p>
+                </div>
+                <p class="pp1"><i class="fa-solid fa-clock"></i> Programa tus vacunaciones</p>
+                <div class="sub1">
+                    <div class="subb1">
+                        <p><i class="fa-solid fa-location-dot"></i> Lugar</p>
+                        <p class="info1">Acapulco</p>
+                    </div>
+                    <div class="subb1">
+                        <p><i class="fa-solid fa-calendar"></i> Fecha</p>
+                        <p class="info1">15-Feb-2022</p>
+                    </div>
+                    <div class="subb1">
+                        <p><i class="fa-solid fa-pen"></i> Vacuna</p>
+                        <p class="info1">Moderna</p>
+                    </div>
+                    <div class="divBt">
+                        <button>Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <img class="img1" src="images/enfermera.webp" alt="Enfermera">
+        </section>
+        <br>
+        <section class="section2">
+            <img  class="logos" src="images/logos.png" alt="vacunas">
+            <div class="mens2">
+                <h3>¿Por qué debería vacunarme?</h3>
+                <p>Para evitar cualquier duda acerca de vacunarse del COVID-19, te mostramos los beneficios de la vacunación:</p>
+            </div>
+           
+            <div class="conts2">
+                <div class="cont2">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p class="titleCont2">Minimiza los contagios</p>
+                    <p class="pCont2">Las vacunas han probado ser efectivas al prevenir los contagios de coronavirus</p>
+                </div>
+                <div class="cont2">
+                    <i class="fa-solid fa-shield"></i>
+                    <p class="titleCont2">Forma anticuerpos<br><br></p>
+                    <p class="pCont2">La vacuna del COVID-19 ha probado ayudar en la formación de anticuerpos del sistema inmune</p>
+                </div>
+                <div class="cont2">
+                    <i class="fa-solid fa-user-group"></i>
+                    <p class="titleCont2">Protege a la gente cerca</p>
+                    <p class="pCont2">Los beneficios de la vacunación del COVID-19 son que la vacuna que obtenemos también ayuda a proteger a los demás</p>
+                </div>
+                <div class="cont2">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <p class="titleCont2">Crea inmunidad de grupo</p>
+                    <p class="pCont2">La vacunación de COVID-19 también es benéfica para crear inmunidad de grupo</p>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <img  class="persona" src="images/cubr.jpg" alt="Persona">
+            <div class="cont3">
+                <h2 class="titleCont3">Preparaciones antes de vacunarse</h2>
+                <p class="pCont3">El éxito de la vacuna está fuertemente influenciado por la fuerza del sistema inmune.
+                    Por lo tanto, hay muchas cosas que puedes intentar para hacer funcionar la vacuna:
+                </p>
+                <br>
+                <div class="op3" onclick="showHide('span1');">
+                    <div class="flexop3">
+                        <i class="fa-solid fa-square-xmark"></i>
+                        <p>Evitar bebidas alcohólicas</p>
+                        <i class="fa-solid fa-caret-down" for="id1"></i>
+                    </div>
+                    <span id="span1">Las ingesta de bebidas alcohólicas resulta 
+                        contraproducente cuando se aplica la vacuna</span>
+                </div>
+                <div class="op3" onclick="showHide('span2');">
+                    <div class="flexop3">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        <p>Evita el estrés</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <span id="span2">El estrés puede causar una respuesta negativa por parte del cuerpo</span>
+                </div>
+                <div class="op3" onclick="showHide('span3');">
+                    <div class="flexop3">
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                        <p>Come saludable</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <span id="span3">Tener una dieta balanceada garantiza una mejor respuesta</span>
+                </div>
+                <div class="op3" onclick="showHide('span4');">
+                    <div class="flexop3">
+                        <i class="fa-solid fa-square-check"></i>
+                        <p>Duerme lo suficiente</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <span id="span4">Debes descansar bien para que tu cuerpo se reponga</span>
+                </div>
+                <div class="op3" onclick="showHide('span5');">
+                    <div class="flexop3">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Ejercicio o actividad física</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <span id="span5">Un poco de actividad regularmente ayuda a mantener una buena salud</span>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="div4">
+                <h2 class="head4">Contacto de Emergencia</h2>
+                <p class="p4">Contacta uno de los contactos de abajo si tú o tu familia presentan síntomas de COVID-19,
+                    asegúrate de cuídarte antes de reportar con nosotros:
+                </p>
+
+                <div class="dosCont">
+                    <div class="dosCont1">
+                        <div class="dosContUp">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="dosContDer">
+                                <p class="titleDosCont">Llamada</p>
+                                <p class="pSmall">74-44-4444</p>
+                            </div>
+                        </div>
+                        <button>Llamar</button>
+                    </div>
+                    <div class="dosCont1">
+                        <div class="dosContUp">
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <div class="dosContDer">
+                                <p class="titleDosCont">Chat</p>
+                                <p class="pSmall">021.123.123.24</p>
+                            </div>
+                        </div>
+                        <button>Chatear</button>
+                    </div>
+                </div>
+                <div class="dosCont">
+                    <div class="dosCont1">
+                        <div class="dosContUp">
+                            <i class="fa-solid fa-video"></i>
+                            <div class="dosContDer">
+                                <p class="titleDosCont">Videollamada</p>
+                                <p class="pSmall">021.123.123.24</p>
+                            </div>
+                        </div>
+                        <button>Llamar</button>
+                    </div>
+                    <div class="dosCont1">
+                        <div class="dosContUp">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="dosContDer">
+                                <p class="titleDosCont">Mensaje</p>
+                                <p class="pSmall">021.123.123.24</p>
+                            </div>
+                        </div>
+                        <button>Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+            <img class="enfermeros" src="images/enfermeros.jpg" alt="enfermeros">
+        </section>
+    </main>
+    <footer>
+        <div class="foot1">
+            <div class="colFoot1">
+                <h3>Vacunación</h3>
+                <p>Nuestra meta es ayudar al mundo a liberarse de la pandemia</p>
+            </div>
+            <div class="colFoot2">
+                <h4>Acerca</h4>
+                <p>Acerca de nosotros</p>
+                <p>Características</p>
+                <p>Noticias</p>
+            </div>
+            <div class="colFoot2">
+                <h4>Compañía</h4>
+                <p>¿Cómo trabajamos?</p>
+                <p>Capital</p>
+                <p>Seguro</p>
+            </div>
+            <div class="colFoot2">
+                <h4>Soporte</h4>
+                <p>FAQs</p>
+                <p>Centro de atención</p>
+                <p>Contáctanos</p>
+            </div>
+        </div>
+        <div class="foot2">
+            <div class="footIzq">
+                <p>2022 Vacunación. Derechos reservados</p>
+            </div>
+            <div class="footDer">
+                <p>Términos y condiciones</p>
+                <p>Política de privacidad</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
