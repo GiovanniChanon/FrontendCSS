@@ -1,0 +1,370 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(114, 133, 139);
+    /*font-weight:bold;*/
+    font-size: 18px;
+}
+body{
+    margin: 0;
+}
+.menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.9);
+    z-index: 99;
+}
+.title{
+    float: left;
+    width: 30%;
+   /* background-color: aquamarine;*/
+    text-align: center;
+    margin: 2%;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.opMenu{
+    float: right;
+    width: 70%;
+    text-align: center;
+    /*background-color: aqua;*/
+}
+.navOp{
+    margin: 2%;
+}
+button{
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    border-radius: 4px;
+    border: 0;
+    padding: 12px;
+    font-size: 14px;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0px 3px 6px rgba(28, 28, 250, 0.4);
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+.div1{
+    float: left;
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 12%;
+    padding-right: 10%;
+}
+.img1{
+    float: left;
+    width: 50%;
+    height:70vh;
+    margin-top: 6%;
+}
+h2{
+    font-size: 38px;
+    color: rgb(0, 0, 119);
+}
+.mens1, .mens2 p{
+    line-height: 25px;
+}
+.op1{
+    display: flex;
+}
+.p1{
+    color: rgb(0, 0, 119);
+    margin-right: 20px;
+    font-size: 12px;
+}
+i{
+    color: yellow;
+    background-color: rgba(255, 255, 0, 0.18);
+    padding: 3px;
+    border-radius: 6px;
+}
+.fa-clock, .sub1 i{
+    color: blue;
+    background-color: rgb(0, 0, 119,0.1);
+    padding: 3px;
+}
+.pp1{
+    margin-top: 15%;
+    color: rgb(0, 0, 119);
+}
+.sub1{
+    display: flex;
+    width: 60vw;
+    z-index: 1;
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.7);
+    padding: 10px;
+    box-shadow: 6px 6px 6px rgb(133, 133, 133,0.4);
+    border-radius: 6px;
+}
+.subb1{
+    float: left;
+    width: 26%;
+    margin-left: 5%;
+    
+}
+.info1{
+    margin-left: 10%;
+    color: rgb(0, 0, 119);
+}
+.sub1 button{
+    height: fit-content;
+    width: 90%;
+}
+.divBt{
+    
+    text-align: center;
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*section 2*/
+.logos{
+    margin-top: 40px;
+    width: 78vw;
+    height: 110px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.mens2{
+    width: 35vw;
+    margin-left: 11vw;
+    margin-top: 50px;
+}
+h3{
+    font-size: 34px;
+    color: rgb(0, 0, 119);
+}
+.conts2{
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.cont2:hover, .op3:hover, .dosCont1:hover{
+    box-shadow: 3px 3px 3px rgb(133, 133, 133,0.4);
+}
+.cont2{
+    float: left;
+    width: 24%;
+    margin: 1%;
+    border: rgb(240, 240, 240) 1px solid;
+    border-radius: 6px;
+    padding: 3%;
+}
+.cont2 i{
+    color: blue;
+    background-color: rgb(0, 0, 119,0.1);
+    padding: 3px;
+    font-size: 28px;
+}
+.titleCont2{
+    color: rgb(0, 0, 119);
+} 
+.pCont2{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*section 3*/
+.section3{
+    display: flex;
+    margin-top: 50px;
+}
+.persona{
+    margin-top: 12%;
+    width: 40%;
+    height: 60vh;
+    float: left;
+}
+.cont3{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.pCont3{
+    line-height: 25px;
+    font-size: 14px;
+}
+.op3{
+    padding: 1%;
+    border: rgb(243, 243, 243) 1px solid;
+    width: 80%;
+    margin-bottom: 1px;
+}
+.op3:hover{
+    cursor: pointer;
+}
+.flexop3{
+    display: flex;
+}
+.op3 i{
+    color: blue;
+    background-color: rgb(0, 0, 119,0.1);
+    padding: 5px;
+    font-size: 13px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.op3 i, .op3 p{
+    margin-left: 4%;
+}
+.op3 p{
+   width: 90%;
+   color: rgb(0, 0, 119);
+}
+.op3 span{
+    margin-left: 14%;
+    font-size: 12px;
+}
+#span1,#span2,#span3,#span4,#span5{
+    display: none;
+}
+
+/*section 4*/
+.section4{
+    margin-top: 70px;
+    display: flex;
+}
+.div4{
+    width: 55%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.head4,.p4{
+    width: 90%;
+    margin-left: 9%;
+}
+.dosCont{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dosCont1{
+    width: 48%;
+    background-color: white;
+    margin: 10px;
+    border-radius: 6px;
+    border: rgb(243, 243, 243) 1px solid;
+    padding: 4%;
+}
+.dosContUp{
+    display: flex;
+}
+.section4 i{
+    color: blue;
+    background-color: rgb(0, 0, 119,0.1);
+    padding: 5px;
+    font-size: 30px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dosContDer{
+    width: 80%;
+    padding-left: 10%;
+}
+.titleDosCont{
+    color: rgb(0, 0, 119);
+    margin-bottom: 2px;
+}
+.pSmall{
+    margin-top: 10px;
+    font-size: 11px;
+}
+.section4 button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    color: blue;
+    background-color: rgb(0, 0, 119,0.1);
+    box-shadow: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section4 button:hover{
+    color: white;
+    border-color: blue;
+    background-color: blue;
+}
+.section4 button:hover, .section4 i:hover{
+    box-shadow: 0px 3px 6px rgba(28, 28, 250, 0.4);
+}
+.enfermeros{
+    margin-top: 12%;
+    width: 45%;
+    height: 60vh;
+}
+/*Footer*/
+footer{
+    background-color: rgba(199, 216, 221, 0.37);
+    margin-top: 60px;
+    padding-top: 2%;
+    padding-bottom: 2px;
+}
+
+.foot1{
+    display: flex;
+    width: 100%;
+}
+.foot1 h3{
+    font-size: 20px;
+    color: blue;
+}
+.foot1 h4{
+    color: rgb(1, 1, 97,0.8);
+}
+.foot1 p{
+    font-size: 14px;
+}
+.colFoot1 p{
+    width: 30%;
+}
+.colFoot1{
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.colFoot2{
+    width: 20%;
+}
+.foot2{
+    display: flex;
+    margin-top: 35px;
+}
+.foot2 p{
+    font-size: 12px;
+}
+.footIzq{
+    float: left;
+    width: 65%;
+    padding-left: 5%;
+}
+.footDer{
+    display: flex;
+    float: right;
+    text-align: center;
+    width: 35%;
+    margin-right: 2%;
+}
+.footDer p{
+    width: 50%;
+}
